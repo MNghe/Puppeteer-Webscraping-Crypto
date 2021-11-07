@@ -1,2 +1,2 @@
-# Puppeteer-Webscraping-Crypto
- Using the Puppeteer, a node.js library, to webscrap cryptocurreny values from specific websites. This was used in a different project and are now being separated and moved to its own repository.
+# Puppeteer Webscraping Crypto
+ This was an experiment to use Puppeteer (A node.js library) to pull values on certain cryptocurrenies through specific websites and compare the values.
