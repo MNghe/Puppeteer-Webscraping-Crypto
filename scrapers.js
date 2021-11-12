@@ -1,5 +1,9 @@
+// Importings
 const puppeteer = require('puppeteer');
 
+// Remember that each website has their own unique setup, thus why there's two different functions, one for each website used.
+
+// Webscraping Coinbase based on specific url
 async function scrapeCoinbase(url) {
   const browser = await puppeteer.launch({
     headless: false
@@ -19,6 +23,7 @@ async function scrapeCoinbase(url) {
   return (price);
 }
 
+// Webscraping WeBull based on the crypto name
 async function scrapeWeBull(crypto) {
   const browser = await puppeteer.launch({
     headless: false
